@@ -31,3 +31,27 @@ body {
     text-wrap: balance;
   }
 }
+nav{
+  background-color: black;
+  color: white
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+h1, h3, button, input{
+  color: #0085FF;
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.button-submit{
+  background-color: #0085FF;
+  color: white;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.bg-black{
+  background-color: #111111 ;
+}
